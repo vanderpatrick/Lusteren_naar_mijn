@@ -34,6 +34,16 @@ nav {
     color: black;
 }
 
+.nav_list .nav_item {
+    cursor: pointer;
+    border: 10px;
+    border-radius: 10px;
+}
+
+.nav_list .nav_item:hover {
+    background-color: white;
+}
+
 /* header section */
 .header_section {
     height: 600px;
