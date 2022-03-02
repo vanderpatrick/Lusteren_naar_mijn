@@ -1,10 +1,12 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     list-style: none;
-    
+
 }
+
+/* Nav section */
 nav {
     display: flex;
     justify-content: space-between;
@@ -12,11 +14,12 @@ nav {
     background-color: aqua;
 
 }
+
 .nav_list {
     display: flex;
     justify-content: space-between;
     font-size: 2.3rem;
-    
+
 }
 
 .nav_item {
@@ -27,4 +30,20 @@ nav {
 .title a {
     font-size: 2.3rem;
     text-decoration: none;
+}
+
+/* header section */
+.header_section {
+    height: 300px;
+    width: 100%;
+    position: relative;
+
+    margin-top: 50px;
+
+}
+
+.intro_banner {
+    width: 100%;
+    height: 300px;
+    background: url(/assets/images/banner_img.jpg) no-repeat center center;
 }
