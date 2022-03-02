@@ -36,17 +36,17 @@ nav {
 
 /* header section */
 .header_section {
-    height: 300px;
+    height: 600px;
     width: 100%;
     position: relative;
-
+    padding: 0 5%;
     margin-top: 50px;
 
 }
 
 .intro_banner {
     width: 100%;
-    height: 300px;
+    height: 600px;
     background: url(/assets/images/banner_img.jpg) no-repeat center center;
 }
 
@@ -56,14 +56,42 @@ nav {
 .grid_section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     min-height: 1000px;
-    margin: 25px 50px;
+    margin: 15px 50px;
     place-items: center;
-   
+
 }
 
 .grid_item {
-    height: 400px;
+    display: grid;
     width: 400px;
-    background-color: black;
+    justify-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.grid_item .poem_header {
+    border-bottom: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 10px 35px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.grid_item .poem_body {
+    margin-top: 5%;
+    padding: 10px 20px;
+}
+
+.grid_item .poem_body .img_grid {
+    background: url(/assets/images/grid_poem_img.jpg)  no-repeat center center;
+    width: 100%;
+    height: 200px;
+}
+
+.grid_item .poem_body  p {
+    margin-top: 5%;
 }
