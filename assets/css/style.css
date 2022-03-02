@@ -95,3 +95,19 @@ nav {
 .grid_item .poem_body  p {
     margin-top: 5%;
 }
+
+/* footer section */
+
+.footer_links {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px 20px 10px;
+}
+
+
+.footer_links li a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 1.5rem;
+}
