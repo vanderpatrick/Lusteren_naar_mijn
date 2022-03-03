@@ -1,12 +1,9 @@
-//Getting all variables
-const activePoem = document.getElementsByClassName('grid_item')
-const showPoem = document.getElementsByClassName('active_poem_item')
+const remove = document.querySelector('.grid_section');
+remove.addEventListener('click', removeClass);
 
-//if poem clicked
-activePoem.onClick = ()=>{
-    showPoem.classList.add('active_poem_item_on')
+function removeClass() {
+    remove.classList.remove('grid_section')
 }
-
 
 // functions to call other pages
 function home() {
