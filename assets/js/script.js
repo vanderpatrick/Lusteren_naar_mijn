@@ -1,8 +1,9 @@
 const remove = document.querySelector('.grid_section');
 remove.addEventListener('click', removeClass);
+const add = document.querySelector('.grid_item_active')
 
 function removeClass() {
-    remove.classList.remove('grid_section')
+    remove.replaceWith('add')
 }
 
 // functions to call other pages
