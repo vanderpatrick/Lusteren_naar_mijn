@@ -1,9 +1,11 @@
-const remove = document.querySelector('.grid_section');
-remove.addEventListener('click', removeClass);
-const add = document.querySelector('.grid_item_active')
 
-function removeClass() {
-    remove.replaceWith('add')
+
+const previewPoem = document.querySelector('.poem');
+const poem = document.querySelector('.poem_big')
+previewPoem.addEventListener('click', changeCss);
+
+function changeCss() {
+    previewPoem.classList.replace('poem','poem_big')
 }
 
 // functions to call other pages
